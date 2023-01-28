@@ -1,0 +1,15 @@
+App(
+    appid = "button",
+    name = "Button App",
+    apptype = FlipperAppType.EXTERNAL,
+    entry_point = "button_app",
+    requires=[
+        "gui",
+    ],
+    stack_size=1 * 1024,
+	fap_description = "simple code to start out",
+    fap_author = "Freya&DianaCorsten",
+    fap_weburl = "https://github.com/DianaCorsten/FZero_simple",
+    fap_icon="icon.png",
+	order=100,
+)
