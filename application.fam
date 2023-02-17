@@ -1,5 +1,5 @@
 App(
-    appid = "button",
+    appid = "button_test",
     name = "Button App",
     apptype = FlipperAppType.EXTERNAL,
     entry_point = "button_app",
